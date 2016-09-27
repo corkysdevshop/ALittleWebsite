@@ -1,0 +1,10 @@
+/*CSS stands for Cascading style sheets and it is how your website looks. You can try to make different background colors etc.*/
+
+body {
+	background-color: green; /*try changing this to blue and refresh the page*/
+}
+
+.OutputIsTheTransformedTextDisplayedToTheScreen {
+	color: blue;
+}
+

@@ -1,0 +1,24 @@
+<!-- This is an HTML document. It pulls in the Javascript document and the CSS document in the head section below. Look at the different file extensions (.html .css .js) at the top of the screen -->
+<!DOCTYPE html>
+<head>
+	<!-- The line below is how the html page talks to the style sheet -->
+	<link rel="stylesheet" href="./style.css"></style>
+</head>
+<body>
+	<h1>Hi Asher!!</h1>
+	<form>
+		<p>Put something in here, like how much ice cream you want:</p>
+
+		<!-- This is what shows up as your text field. It can be considered 'input'. All computers are good for is input and output. They do repeatable tasks very fast. -->
+		<input id="inputText" type="text"></input>
+
+		<!-- This is the html 'handle' that the javascript file can grab on to. Compare the unique name 'JavascriptGrabsInfo' -->
+		<button id="InputTextFieldThroughHTMLUsingJavascript">And Press Me</button>
+
+		<p id="OutputIsTheTransformedTextDisplayedToTheScreen">And watch it come out here:</p>
+
+	</form>
+
+	<!-- The line below is how you link the javascript file into the html. Notice that is before the closing body tag, this is to ensure the page elements exist before javascript tries to find them. -->
+	<script type="text/javascript" src="./scripts.js"></script>
+</body>
