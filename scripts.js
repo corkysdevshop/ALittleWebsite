@@ -8,7 +8,7 @@ function collectInput () {
 	result = iceCream.concat("!! Plus one more cone!"); // this line 'transforms' your input. This is where computers are really handy and you can build output by coding steps to an algorythm, making really complicated things really simple. Some algorythms are as complicated as google search, while this one is a little simpler. 
 }
 
-// VIEW: This is how you display the input back to the screen.
+// VIEW: This is how you display the output back to the screen.
 function generateOutput () {
 	document.getElementById("OutputIsTheTransformedTextDisplayedToTheScreen").innerHTML = result; // this line sends your result to the screen
 }
